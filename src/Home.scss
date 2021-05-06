@@ -10,6 +10,7 @@
 .text-area {
   margin-top: 10vh;
   margin-left: 10vw;
+  margin-bottom: 20vh;
   color: #464646;
   font-family: Montserrat;
   font-weight: 500;
@@ -23,7 +24,7 @@
 
 .title {
   font-size: 4rem;
-  line-height: 200%;
+  padding-bottom: 2rem;
 }
 
 .subtitle {
@@ -63,4 +64,8 @@
 .resume-button:hover {
   cursor: pointer;
   background: darkgray;
+}
+
+.footer {
+  height: 4rem;
 }
