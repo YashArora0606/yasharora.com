@@ -62,6 +62,14 @@
     {
       "extension": "/blm",
       "url": "https://www.timeout.com/things-to-do/how-to-support-black-lives-matter/"
+    },
+    {
+      "extension": "/hershey",
+      "url": "hershey.jpeg"
+    },
+    {
+      "extension": "/lindor",
+      "url": "lindor.jpeg"
     }
     
   ]
