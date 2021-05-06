@@ -33,7 +33,7 @@ const Home = () => {
           <div className="text-area">
             <img className="headshot" src="/headshot.jpg" alt="headshot" />
             <div className="title">{greetings[greetingCounter]}<i className="fab fa-github"></i></div>
-            <div className="subtitle">I'm a software engineering student from the University of Waterloo.</div>
+            <div className="subtitle">I'm a software engineering student from the University of Waterloo. Previously I've worked <b>@Carbonite</b>, <b>@Localintel</b>, and <b>@Hatch</b>.</div>
             
             <div className="icon-area">
               <a target="_blank" rel="noreferrer" href="https://www.github.com/yasharora0606">
@@ -54,7 +54,7 @@ const Home = () => {
             </div>
             <a target="_blank" rel="noreferrer" href="YashArora_Resume.pdf">
               <button className="resume-button">
-                Resume
+                Résumé
               </button>
             </a>
 
