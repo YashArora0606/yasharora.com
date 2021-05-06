@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.scss';
 import Home from './Home'
 import Paths from './paths.json';
