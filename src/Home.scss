@@ -1,8 +1,34 @@
 .content {
-  width: 80%;
-  max-width: 1080px;
+  width: 100%;
+  // max-width: 1080px;
   height: 100%;
   margin: 0 auto;
-  outline: 2px dashed red;
+  // outline: 2px dashed red;
   display: flex;
+  background-color: black;
+}
+
+.text-area {
+  font-family: Helvetica;
+  color: white;
+  padding: 2rem;
+  margin-left: 10rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.dot {
+  font-weight: 700;
+  font-size: 3rem;
+  height: 4rem;
+  width: 4rem;
+  background-color: lightgreen;
+  border-radius: 50%;
+}
+
+.dot-text {
+  outline: 2px solid red;
 }

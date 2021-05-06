@@ -6,8 +6,14 @@ const Home = () => {
 
       <div className="home">
         <div className="content">
-          <p>This is HOME</p>
-
+          <div className="text-area">
+            <div className="title">Yash Arora</div>
+            <div className="dot">
+              <div className="dot-text">
+                Y
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
