@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700display=swap");
+
 .content {
   display: flex;
   width: 100vw;
@@ -6,15 +8,59 @@
 }
 
 .text-area {
-  padding: 2rem;
-  padding-top: 30vh;
-  margin-left: 10rem;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  color: #464646;
+  font-family: Montserrat;
+  font-weight: 500;
 }
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+
+.headshot {
+  max-width: 10rem;
+  margin-bottom: 1rem;
+  border-radius: 3rem;
+}
 
 .title {
+  font-size: 4rem;
+  line-height: 200%;
+}
+
+.subtitle {
+  max-width: 768px;
+  font-size: 1.5rem;
+}
+
+.icon-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.svg-inline--fa {
+  color: #464646;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.svg-inline--fa:hover {
+  color: darkgray;
+}
+
+.resume-button {
+  background: #464646;
+  padding: 1rem;
   font-family: Montserrat;
-  font-weight: 600;
-  font-size: 5rem;
-  color: black;
+  font-weight: 500;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+  background: darkgray; 
 }

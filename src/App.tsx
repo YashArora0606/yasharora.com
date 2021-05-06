@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Switch>
         {Paths.map((path) => {
-          return <Route path={path.extension} exact component={() => {
+          return <Route key={path.extension} path={path.extension} exact component={() => {
             window.location.href = path.url; 
             return null;
           }}/> 
