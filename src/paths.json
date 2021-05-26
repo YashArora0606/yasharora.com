@@ -78,6 +78,10 @@
     {
       "extension": "/guy",
       "url": "http://www.guymorgenshtern.com"
+    },
+    {
+      "extension": "/cicd",
+      "url": "cicd.pdf"
     }
     
   ]
