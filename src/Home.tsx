@@ -33,11 +33,16 @@ const Home = () => {
           <div className="text-area">
             <img className="headshot" src="/headshot.jpg" alt="headshot" />
             <div className="title">{greetings[greetingCounter]}<i className="fab fa-github"></i></div>
-            <div className="subtitle">{"I'm a software engineering student from the University of Waterloo. Previously I've worked "}
-              <a className="link" href="https://www.carbonite.com/"><b>{"@Carbonite"}</b></a>{", "} 
-              <a className="link" href="https://www.ecdev.org/"><b>{"@Localintel"}</b></a>{", and "}
-              <a className="link" href="https://www.hatchcoding.com/"><b>{"@Hatch"}</b></a>{"."}
-            </div>
+            <p className="subtitle">{"I'm a software engineering student from the University of Waterloo, currently working on theme platforms "}
+              <a className="link shopify" href="https://www.shopify.com/"><b>{"@Shopify"}</b></a>{". In a few months I'll be joining an amazing team working on energy projects "}
+              <a className="link tesla" href="https://www.tesla.com/"><b>{"@Tesla"}</b></a>{"!"}
+            </p>
+            <p className="subtitle">
+              {"Previously, I interned "}
+              <a className="link carbonite" href="https://www.carbonite.com/"><b>{"@Carbonite"}</b></a>{", "} 
+              <a className="link localintel" href="https://www.ecdev.org/"><b>{"@Localintel"}</b></a>{", and "}
+              <a className="link hatch" href="https://www.hatchcoding.com/"><b>{"@Hatch"}</b></a>{"."}
+            </p>
             
             <div className="icon-area">
               <a target="_blank" rel="noreferrer" href="https://www.github.com/yasharora0606">
@@ -46,12 +51,12 @@ const Home = () => {
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yasharora0606">
                 <FontAwesomeIcon icon={faLinkedin} size="2x"/>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/yashydoodle">
+              {/* <a target="_blank" rel="noreferrer" href="https://www.instagram.com/yarora_">
                 <FontAwesomeIcon icon={faInstagram} size="2x"/>
               </a>
               <a target="_blank" rel="noreferrer" href="https://www.twitter.com/yasharora0606">
                 <FontAwesomeIcon icon={faTwitter} size="2x"/>
-              </a>
+              </a> */}
               <a target="_blank" rel="noreferrer" href="mailto:yasharora0606@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} size="2x"/>
               </a>

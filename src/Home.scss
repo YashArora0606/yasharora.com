@@ -14,6 +14,21 @@
   color: #464646;
   font-family: Montserrat;
   font-weight: 500;
+  .shopify {
+    color: #74ad6a !important;
+  }
+  .tesla {
+    color: #b33b3b !important;
+  }
+  .carbonite {
+    color: #336bd4 !important;
+  }
+  .hatch {
+    color: #755ab0 !important;
+  }
+  .localintel {
+    color: #5b8ec2 !important;
+  }
 }
 
 .headshot {
@@ -34,7 +49,7 @@
 
 .link {
   text-decoration: none !important;
-  color: #464646 !important;
+  // color: #464646;
 }
 
 .icon-area {
