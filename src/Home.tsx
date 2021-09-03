@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import './Home.scss'
-import { faTwitter, faLinkedin, faGithub, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
