@@ -4,16 +4,20 @@
       "url": "YashArora_Resume.pdf"
     },
     {
+      "extension": "/resume/fe",
+      "url": "../YashArora_Resume_Frontend.pdf"
+    },
+    {
       "extension": "/resume/frontend",
-      "url": "../YashArora_Resume.pdf"
+      "url": "../YashArora_Resume_Frontend.pdf"
     },
     {
       "extension": "/resume/machinelearning",
-      "url": "../YashArora_Resume.pdf"
+      "url": "../YashArora_Resume_ML.pdf"
     },
     {
       "extension": "/resume/ml",
-      "url": "../YashArora_Resume.pdf"
+      "url": "../YashArora_Resume_ML.pdf"
     },
     {
       "extension": "/linkedin",
