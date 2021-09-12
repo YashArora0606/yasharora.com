@@ -33,7 +33,7 @@ const Home = () => {
           <div className="text-area">
             <img className="headshot" src="/headshot.jpg" alt="headshot" />
             <div className="title">{greetings[greetingCounter]}<i className="fab fa-github"></i></div>
-            <p className="subtitle">{"I'm a software engineering student from the University of Waterloo, currently working on theme platforms "}
+            <p className="subtitle">{"I'm a software engineering student from the University of Waterloo, currently working on the Oxygen BETA "}
               <a className="link shopify" href="https://www.shopify.com/"><b>{"@Shopify"}</b></a>{". In a few months I'll be joining an amazing team working on energy projects "}
               <a className="link tesla" href="https://www.tesla.com/"><b>{"@Tesla"}</b></a>{"!"}
             </p>
