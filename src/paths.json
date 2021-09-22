@@ -86,6 +86,11 @@
     {
       "extension": "/cicd",
       "url": "cicd.pdf"
+    },
+    {
+      "extension": "/kms",
+      "url": "https://uwaterloo.ca/"
     }
+    
     
   ]
