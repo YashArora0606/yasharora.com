@@ -8,14 +8,15 @@ const Home = () => {
 
   const GREETING_INTERVAL = 2000;
   const greetings = [
-    "Hi, I'm Yash.", 
-    "Bonjour, je m'appelle Yash.", 
-    "Hola, soy Yash.", 
-    "嗨，我 是 Yash.", 
-    "こんにちは、私はヤシュです.",
-    "안녕하세요, 저는 Yash입니다.",
-    "Ciao, sono Yash.",
-    "हाय, मैं यश हूं।.",
+    "Hi, I'm Yash!", 
+    "Bonjour, je m'appelle Yash!", 
+    "Hola, soy Yash!", 
+    "你好，我的名字是 Yash!", 
+    "こんにちは、私はヤシュです!",
+    "안녕하세요, 저는 Yash입니다!",
+    "Ciao, sono Yash!",
+    "हाय, मैं यश हूं।!",
+    "привет я Яш!"
   ]
 
   const [greetingCounter, setGreetingCounter] = useState<number>(0);
