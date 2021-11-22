@@ -1,14 +1,19 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./LinkBall.scss";
+import { CSSTransition } from "react-transition-group"
 
 interface Props {
   name: string;
   abbreviation: string;
-  icon: string;
+  icon: any;
   color: string;
+  url: string;
 }
 
-const LinkBall = ({ name, abbreviation, icon, color }: Props) => {
+const duration = 200;
+
+const LinkBall = ({ name, abbreviation, icon, color, url }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -21,8 +26,13 @@ const LinkBall = ({ name, abbreviation, icon, color }: Props) => {
       onMouseLeave={() => {
         setIsHovered(false);
       }}
+      onClick={()=> window.open(url, "_blank")}
     >
-      {isHovered ? name : abbreviation}
+        <FontAwesomeIcon 
+          className="faicon"
+          size="lg"
+          icon={icon}
+        /> 
     </div>
   );
 };
