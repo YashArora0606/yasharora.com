@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.scss";
-import { faGithub, faLinkedin, faSpotify, faShopify } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import LinkBall from "./LinkBall/LinkBall";
 import { faEnvelopeSquare, faFileAlt } from "@fortawesome/fontawesome-free-solid";
 
@@ -51,11 +51,11 @@ const Home = () => {
           <div className="title">Hey, I'm Yash</div>
           <p className="subtitle">
             {"SWE intern "}
-            <a className="link shopify" href="https://www.shopify.com/" target="_blank"><b>{"@Shopify"}</b></a>
+            <a className="link shopify" href="https://www.shopify.com/" target="_blank" rel="noreferrer"><b>{"@Shopify"}</b></a>
             {", incoming SWE intern "}
-            <a className="link tesla" href="https://www.tesla.com/" target="_blank"><b>{"@Tesla"}</b></a>
+            <a className="link tesla" href="https://www.tesla.com/" target="_blank" rel="noreferrer"><b>{"@Tesla"}</b></a>
             {", Software Engineering "}
-            <a className="link uwaterloo" href="https://uwaterloo.ca/future-students/programs/software-engineering" target="_blank"><b>{" @UWaterloo"}</b></a>
+            <a className="link uwaterloo" href="https://uwaterloo.ca/future-students/programs/software-engineering" target="_blank" rel="noreferrer"><b>{" @UWaterloo"}</b></a>
           </p>
         </div>
         <div className="stations">
