@@ -1,0 +1,61 @@
+.screen {
+  width: 100%;
+  //   max-width: 800px;
+  display: table;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #7500bc, #220074);
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.albumArt {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: table;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.UIArea {
+  color: white;
+  min-width: 400px;
+  max-width: 800px;
+  width: 70%;
+  display: table;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.songNameArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likeButton {
+}
+
+.sliderTimerArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.introArea {
+  padding-top: 2rem;
+}
+
+.title {
+  font-size: 50pt;
+}

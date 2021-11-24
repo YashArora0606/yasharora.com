@@ -12,18 +12,6 @@
   font-weight: 700;
 }
 
-.heading {
-  padding-top: 8em;
-  padding-bottom: 1em;
-}
-
-.subtitle {
-  padding-top: 1em;
-  font-weight: 600;
-  color: #cfcfcf;
-  // animation: fadeInSubtitle 10s;
-}
-
 .link {
   text-decoration: none;
 }
@@ -36,75 +24,4 @@
 }
 .uwaterloo {
   color: #e8e099;
-}
-
-.title {
-  font-size: 64pt;
-  // animation: fadeInTitle 10s;
-}
-
-hr {
-  margin-left: 0;
-  animation: extendLine 10s;
-}
-
-.stations {
-  // animation: fadeInStations 10s;
-}
-
-@keyframes extendLine {
-  0% {
-    width: 0%;
-  }
-  10% {
-    width: 100%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes fadeInTitle {
-  0% {
-    opacity: 0%;
-  }
-  10% {
-    opacity: 0%;
-  }
-  20% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-@keyframes fadeInSubtitle {
-  0% {
-    opacity: 0%;
-  }
-  15% {
-    opacity: 0%;
-  }
-  25% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-@keyframes fadeInStations {
-  0% {
-    opacity: 0%;
-  }
-  20% {
-    opacity: 0%;
-  }
-  30% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 100%;
-  }
 }
