@@ -59,7 +59,9 @@ const Player = () => {
                     <div>under her influence.</div>
                     <button>...</button>
                 </div> */}
-        <img className="albumArt" src={albumart} alt="Album cover" />
+        <div className="albumArtArea">
+          <img className="albumArt" src={albumart} alt="Album cover" />
+        </div>
         {/* <div className="songNameArea">
                     <div>
                         Hey, I'm Yash
@@ -124,18 +126,18 @@ const Player = () => {
                 <b>{" @UWaterloo"}</b>
               </a>
             </p>
+            {links.map((link) => {
+              return (
+                <LinkBall
+                  name={link.name}
+                  abbreviation={link.abbreviation}
+                  icon={link.icon}
+                  color={link.color}
+                  url={link.url}
+                />
+              );
+            })}
           </div>
-          {links.map((link) => {
-            return (
-              <LinkBall
-                name={link.name}
-                abbreviation={link.abbreviation}
-                icon={link.icon}
-                color={link.color}
-                url={link.url}
-              />
-            );
-          })}
         </div>
       </div>
     </div>

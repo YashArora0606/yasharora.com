@@ -1,12 +1,11 @@
 .screen {
   background-image: linear-gradient(to bottom right, #7500bc, #220074);
-
+  // outline: 2px solid yellow;
+  min-width: 228px;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
-  //   max-width: 800px;
-  display: table;
-  margin: 0 auto;
-  height: 100vh;
+  display: flex;
 }
 
 .topBar {
@@ -14,27 +13,23 @@
   justify-content: space-between;
 }
 
-.albumArt {
-  // margin: 2em;
+.albumArtArea {
+  padding: 2em;
+  min-width: 2px;
+  max-width: 30em;
   // outline: 2px dashed red;
+}
+
+.albumArt {
+  width: 100%;
+  height: 100%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  // display: table;
-  max-width: 30em;
-  // max-width: 80%;
-
-  // max-width: 40%;
-  // max-height: 50%;
-  // margin: 0 auto;
 }
 
 .UIArea {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  // margin: 0;
   width: 100%;
 
   display: flex;
@@ -43,7 +38,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   // gap: 4em;
-  // outline: 2px solid yellow;
+  // outline: 2px dashed blue;
 
   color: white;
 }
@@ -53,7 +48,7 @@
   padding-right: 2em;
 
   // max-width: 90%;
-  // outline: 2px solid red;
+  // outline: 2px solid green;
 }
 
 .songNameArea {
@@ -77,7 +72,8 @@
 }
 
 .introArea {
-  padding-top: 2rem;
+  // padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .title {
