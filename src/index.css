@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
 body {
+  background-image: linear-gradient(to bottom right, #7500bc, #220074);
   margin: 0;
   font-family: "DM Sans", sans-serif;
   background-color: white;

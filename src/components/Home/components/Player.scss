@@ -4,7 +4,6 @@
   display: table;
   margin: 0 auto;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #7500bc, #220074);
 }
 
 .topBar {
@@ -23,12 +22,15 @@
 }
 
 .UIArea {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
+  // outline: 2px solid red;
   min-width: 400px;
-  max-width: 800px;
-  width: 70%;
-  display: table;
-  margin: 0 auto;
+  max-width: 540px;
   padding: 2em;
 }
 
