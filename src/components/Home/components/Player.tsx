@@ -125,6 +125,10 @@ const Player = () => {
               >
                 <b>{" @UWaterloo"}</b>
               </a>
+
+            </p>
+            <p>
+              <b>{"I am NOT the person facing charges! That is a VERY DIFFERENT person!"}</b>   
             </p>
             {links.map((link) => {
               return (
