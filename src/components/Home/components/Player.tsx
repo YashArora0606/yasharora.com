@@ -128,7 +128,7 @@ const Player = () => {
 
             </p>
             <p>
-              <b>{"I am NOT the person facing charges! That is a VERY DIFFERENT person!"}</b>   
+              <b>{"I am NOT the person in the news facing charges! I just happen to have the same name."}</b>   
             </p>
             {links.map((link) => {
               return (
