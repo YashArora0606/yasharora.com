@@ -107,7 +107,7 @@ const Player = () => {
               >
                 <b>{"@Shopify"}</b>
               </a>
-              {", incoming SWE intern "}
+              {/* {", incoming SWE intern "}
               <a
                 className="link tesla"
                 href="https://www.tesla.com/"
@@ -115,8 +115,8 @@ const Player = () => {
                 rel="noreferrer"
               >
                 <b>{"@Tesla"}</b>
-              </a>
-              {", and a Software Engineering student "}
+              </a> */}
+              {" and a Software Engineering student "}
               <a
                 className="link uwaterloo"
                 href="https://uwaterloo.ca/future-students/programs/software-engineering"
@@ -125,10 +125,13 @@ const Player = () => {
               >
                 <b>{" @UWaterloo"}</b>
               </a>
-
             </p>
             <p>
-              <b>{"I am NOT the person in the news facing charges! I just happen to have the same name."}</b>   
+              <b>
+                {
+                  "I am NOT the Yash Arora in the news facing charges. They just happen to have the same name."
+                }
+              </b>
             </p>
             {links.map((link) => {
               return (
