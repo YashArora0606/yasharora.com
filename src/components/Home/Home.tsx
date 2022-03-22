@@ -1,13 +1,13 @@
 import React from "react";
+import Main from "./components/Main";
 import "./Home.scss";
-
-import Player from './components/Player'
 
 const Home = () => {
 
   return (
     <div className="home">
-      <Player/>
+      <Main/>
+      {/* <Player/> */}
     </div>
   );
 };
