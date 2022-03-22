@@ -2,6 +2,19 @@
 
 body {
   margin: 0;
-  font-family: "DM Sans", sans-serif;
-  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --background: white;
+  --text-primary: rgb(60, 60, 60);
+  --text-secondary: rgb(120, 120, 120);
+  --accent: rgb(242, 230, 245);
+}
+[data-theme="dark"] {
+  --background: rgb(30, 30, 30);
+  --text-primary: white;
+  --text-secondary: rgb(200, 200, 200);
+  --accent: rgb(96, 79, 100);
 }
