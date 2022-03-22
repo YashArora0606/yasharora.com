@@ -51,10 +51,10 @@ const Main = () => {
                     </div> */}
                     <div className="section-text">
                         <p>
-                            <a className="link" href="/github" target="_blank">GitHub</a>{" "}
-                            <a className="link" href="/github" target="_blank">LinkedIn</a>{"    "}
-                            <a className="link" href="/resume" target="_blank">Resume</a>{"    "}
-                            <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank">Email</a>
+                            <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{" "}
+                            <a className="link" href="/github" target="_blank" rel="noreferrer">LinkedIn</a>{"    "}
+                            <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{"    "}
+                            <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
                         </p>
                     </div>
                 </div>
