@@ -17,14 +17,20 @@ const Main = () => {
 
     return (
         <div className="main" data-theme={theme}>
-            <button className="switcher" onClick={switchTheme}>
-                {theme === 'light' ? <FontAwesomeIcon size={'2x'} icon={faMoon} className="icon"/> : <FontAwesomeIcon size={'2x'} icon={faSun} className="icon"/>}
-            </button>
+
+            
             <div className="mid-section">
+
+                <div className="header">
+                    <button className="switcher" onClick={switchTheme}>
+                        {theme === 'light' ? <FontAwesomeIcon size={'2x'} icon={faMoon} className="icon"/> : <FontAwesomeIcon size={'2x'} icon={faSun} className="icon"/>}
+                    </button>
+                    {/* <button className="home-button">Home</button> */}
+                </div>
                 <div className="section">
-                    {/* <div className="section-title">
-                        <p>intro</p>
-                    </div> */}
+                    <div className="section-title">
+                        <p>Intro</p>
+                    </div>
                     <div className="section-text">
                         <p>
                             {"Hi, I'm Yash."}
@@ -46,15 +52,18 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="section">
-                    {/* <div className="section-title">
-                        <p>links</p>
-                    </div> */}
+                    <div className="section-title">
+                        <p>Links</p>
+                    </div>
                     <div className="section-text">
                         <p>
-                            <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{" "}
-                            <a className="link" href="/github" target="_blank" rel="noreferrer">LinkedIn</a>{"    "}
-                            <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{"    "}
-                            <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
+                            <div className="links-section">
+                                <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{`   `}
+                                <a className="link" href="/github" target="_blank" rel="noreferrer">LinkedIn</a>{`   `}
+                                <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{`   `}
+                                <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
+                            </div>
+
                         </p>
                     </div>
                 </div>
