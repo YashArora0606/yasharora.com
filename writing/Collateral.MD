@@ -1,8 +1,6 @@
-# Collateralized Romantic Obligations
+## Collateralized Romantic Obligations
 
 ### On love (or an unrealized lack thereof)
-
----
 
 Love is an asset backed security.
 
