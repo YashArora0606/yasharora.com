@@ -37,7 +37,7 @@ const Main = () => {
                         </p>
                         <p>
                             {"I'm currently a software engineering student at the University of "}
-                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>, 
+                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
                             {". This winter I'm working at "}
                             <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
                             {" in NYC. I used to work at "}
