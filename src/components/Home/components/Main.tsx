@@ -36,11 +36,13 @@ const Main = () => {
                             {"Hi, I'm Yash."}
                         </p>
                         <p>
-                            {"I'm currently a software engineering student at the "}
-                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"University of Waterloo"}</a>, 
+                            {"I'm currently a software engineering student at the University of "}
+                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>, 
                             {" working at "}
-                            <a className="styled-link bloomberg hoverable" href="https://bloomberg.com" target="_blank" rel="noreferrer">{"Bloomberg"}</a>
+                            <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
                             {" in NYC. I used to work at "}
+                            <a className="styled-link bloomberg hoverable" href="https://bloomberg.com" target="_blank" rel="noreferrer">{"Bloomberg"}</a>
+                            {" and "}
                             <a className="styled-link shopify hoverable" href="https://shopify.com" target="_blank" rel="noreferrer">{"Shopify"}</a> 
                             {"."}
                         </p>
@@ -58,9 +60,9 @@ const Main = () => {
                     <div className="section-text">
                         <p>
                             <div className="links-section">
-                                <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{`   `}
                                 <a className="link" href="/linkedin" target="_blank" rel="noreferrer">LinkedIn</a>{`   `}
-                                <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{`   `}
+                                <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{`   `}
+                                <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume (old)</a>{`   `}
                                 <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
                             </div>
 

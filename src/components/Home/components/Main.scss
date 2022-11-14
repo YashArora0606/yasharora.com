@@ -67,6 +67,13 @@
   background-color: var(--accent);
 }
 
+.jane-street:hover {
+  transition: 400ms;
+  background-color: rgb(60, 126, 184);
+  color: white;
+}
+
+
 .bloomberg:hover {
   transition: 400ms;
   background-color: rgb(49, 49, 49);
