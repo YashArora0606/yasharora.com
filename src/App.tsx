@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import Home from "./components/Home/Home";
+import Letters from "./components/Letters/Letters";
 
 import Paths from "./paths.json";
 
@@ -23,6 +24,7 @@ const App = () => {
             />
           );
         })}
+        <Route path="/mysapphire" component={Letters} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
