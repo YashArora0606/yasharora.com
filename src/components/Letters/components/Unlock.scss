@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban:wght@400&display=swap');
+
+.unlock {
+    color: rgb(40, 40, 40);
+    font-family: 'Esteban', serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 720px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 26pt;
+}
+
+.input-area {
+    outline: 1px solid rgb(31, 31, 112);
+    width: max-content;
+}
+
+.input-bar {
+    max-width: 360px;
+    line-height: 26pt;
+    font-size: 18pt;
+    font-family: 'Esteban', serif;
+    // border: 1px solid grey;
+    border: none;
+}
+
+.input-bar:focus{
+    outline: none;
+}
+
+.submit {
+    line-height: 30pt;
+    outline: 1px solid rgb(31, 31, 112);
+    border: none;
+    font-size: 18pt;
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 234, 255);
+}
+
+.submit:hover {
+    transition: 400ms;
+    background-color: rgb(31, 31, 112);
+    color: white;
+}

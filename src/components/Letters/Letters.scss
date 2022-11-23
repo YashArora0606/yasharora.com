@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban:wght@400&display=swap');
+
 .setting {
     color: rgb(40, 40, 40);
+    font-family: 'Esteban', serif;
 }
 
-.jpn {
-    width: 200px;
+img {
     height: 200px;
     border-radius: 4px;
 }
 
 .letter {
-    font-family: "Times New Roman", Times, serif;
+    // font-family: "Times New Roman", Times, serif;
     margin: 0 auto;
     max-width: 720px;
     padding-left: 6%;

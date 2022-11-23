@@ -24,7 +24,7 @@ const App = () => {
             />
           );
         })}
-        <Route path="/mysapphire" component={Letters} />
+        <Route path="/letter" component={Letters} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
