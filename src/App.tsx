@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import Home from "./components/Home/Home";
-import Letters from "./components/Letters/Letters";
+import Letterbox from "./components/Letterbox/Letterbox";
 
 import Paths from "./paths.json";
 
@@ -24,7 +24,7 @@ const App = () => {
             />
           );
         })}
-        <Route path="/letter" component={Letters} />
+        <Route path="/letterbox" component={Letterbox} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>

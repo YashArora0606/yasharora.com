@@ -1,14 +1,10 @@
-import React, { useState } from "react";
-import ChangingText from "./components/ChangingText";
-import Unlock from "./components/Unlock";
-import "./Letters.scss";
+import React from "react";
+import ChangingText from "../../ChangingText";
 import cats from "./cats.jpg"
 
-const Letters = () => {
+const Sapphire = () => {
 
-    const [locked, setLocked] = useState(true)
     return (
-        locked ? <Unlock password="sapphire" onUnlock={() => {setLocked(false)}}/> :
         <div className="setting">
             <div className="letter">
                 <p className="title">
@@ -66,8 +62,9 @@ const Letters = () => {
                 </p>
             </div>
         </div>
+        
 
     );
 };
 
-export default Letters;
+export default Sapphire;

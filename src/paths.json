@@ -116,7 +116,11 @@
       "url": "https://forms.gle/syrU1vYHQwKjhMaEA"
     },
     {
-      "extension": "/sx",
-      "url": "sx.html"
+      "extension": "/letter",
+      "url": "/letterbox"
+    },
+    {
+      "extension": "/letters",
+      "url": "/letterbox"
     }
   ]

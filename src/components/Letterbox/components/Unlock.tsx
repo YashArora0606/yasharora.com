@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import "./Unlock.scss";
 
 interface UnlockProps {
-    password: string;
-    onUnlock: any;
+    onAttemptUnlock: any;
 }
 
-const ChangingText = ({ password, onUnlock } : UnlockProps) => {
+const ChangingText = ({ onAttemptUnlock } : UnlockProps) => {
 
     const [message, setMessage] = useState('');
-    const [wasWrong, setWasWrong] = useState(false)
 
     const handleChange = (event: any) => {
       setMessage(event.target.value);
@@ -22,17 +20,13 @@ const ChangingText = ({ password, onUnlock } : UnlockProps) => {
     }
 
     const onSubmit = () => {
-        if (message === password) {
-            onUnlock()
-        } else {
-            setWasWrong(true)
-        }
+        onAttemptUnlock(message)
         setMessage('')
     }
 
     return (
         <div className="unlock">
-            {wasWrong ? "Enter a valid code:" : "Enter your code:"}
+            {"Enter your code:"}
             <div className="input-area">
 
                 <input 
@@ -44,7 +38,6 @@ const ChangingText = ({ password, onUnlock } : UnlockProps) => {
 
                 <button className="submit" onClick={onSubmit}>{">"}</button>
             </div>
-
         </div>
     );
 
