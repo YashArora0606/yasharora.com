@@ -36,20 +36,16 @@ const Main = () => {
                             {"Hi, I'm Yash."}
                         </p>
                         <p>
-                            {"I'm currently a software engineering student at the University of "}
+                            {"I'm a software engineering student at the University of "}
                             <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
-                            {". This winter I'm working at "}
+                            {", working at "}
                             <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
-                            {" in NYC. I used to work at "}
-                            <a className="styled-link bloomberg hoverable" href="https://bloomberg.com" target="_blank" rel="noreferrer">{"Bloomberg"}</a>
-                            {" and "}
-                            <a className="styled-link shopify hoverable" href="https://shopify.com" target="_blank" rel="noreferrer">{"Shopify"}</a> 
-                            {"."}
+                            {" in New York. In the past I've worked at Bloomberg and Shopify."}
                         </p>
                         <p>
-                            {"Talk to me about quantitative finance, crypto, "}
+                            {"Talk to me about quantitative finance, Mario Kart, and "}
                             <a className="styled-link cats hoverable" href="/cats" target="_blank" rel="noreferrer">{"my cats"}</a>
-                            {", and BLACKPINK."}
+                            {"."}
                         </p>
                     </div>
                 </div>
