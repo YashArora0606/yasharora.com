@@ -25,5 +25,3 @@ Collateralized love obligations
 - and to you they're just a number
 
 ---
-
-Youre
