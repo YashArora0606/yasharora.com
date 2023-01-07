@@ -11,7 +11,7 @@ const Ruby = () => {
         //         </p>    
         //     </div>
         // </div>
-        <Redirect to="/ruby.pdf" />
+        <Redirect to="/ruby" />
     );
 };
 

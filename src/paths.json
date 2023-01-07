@@ -122,5 +122,9 @@
     {
       "extension": "/letters",
       "url": "/letterbox"
+    },
+    {
+      "extension": "/ruby",
+      "url": "/ruby.pdf"
     }
   ]
