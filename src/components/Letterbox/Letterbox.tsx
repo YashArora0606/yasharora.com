@@ -3,6 +3,7 @@ import Unlock from "./components/Unlock";
 import "./Letterbox.scss";
 import Sapphire from "./components/Letters/Sapphire/Sapphire";
 import Ruby from "./components/Letters/Ruby/Ruby";
+import Emerald from "./components/Letters/Emerald/emerald";
 
 const Letters = () => {
 
@@ -10,7 +11,8 @@ const Letters = () => {
 
     const codeToComponent: { [key: string]: any } = {
         "sapphire": <Sapphire/>,
-        "ruby": <Ruby/>
+        "ruby": <Ruby/>,
+        "emerald" : <Emerald/>
     }
 
     const getLetterOrLockScreen = () => {
