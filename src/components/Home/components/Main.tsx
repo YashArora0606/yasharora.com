@@ -39,8 +39,15 @@ const Main = () => {
                             {"I'm a software engineering student at the University of "}
                             <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
                             {", working at "}
+                            <a className="styled-link citsec hoverable" href="https://citadelsecurities.com" target="_blank" rel="noreferrer">{"Citadel Securities"}</a>
+                            {" in New York. In the past I've worked on quantitative trading and software engineering at "}
                             <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
-                            {" in New York. In the past I've worked at Bloomberg and Shopify."}
+                            {", "}
+                            <a className="styled-link bloomberg hoverable" href="https://bloomberg.com" target="_blank" rel="noreferrer">{"Bloomberg"}</a>
+                            {", and "}
+                            <a className="styled-link shopify hoverable" href="https://shopify.com" target="_blank" rel="noreferrer">{"Shopify"}</a>
+                            {"."}
+
                         </p>
                         <p>
                             {"Talk to me about quantitative finance, Mario Kart, and "}
@@ -58,7 +65,7 @@ const Main = () => {
                             <div className="links-section">
                                 <a className="link" href="/linkedin" target="_blank" rel="noreferrer">LinkedIn</a>{`   `}
                                 <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{`   `}
-                                <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume (old)</a>{`   `}
+                                <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{`   `}
                                 <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
                             </div>
 

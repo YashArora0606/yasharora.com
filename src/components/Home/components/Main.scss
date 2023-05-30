@@ -67,12 +67,17 @@
   background-color: var(--accent);
 }
 
+.citsec:hover {
+  transition: 400ms;
+  background-color: rgb(19, 25, 65);
+  color: white;
+}
+
 .jane-street:hover {
   transition: 400ms;
   background-color: rgb(60, 126, 184);
   color: white;
 }
-
 
 .bloomberg:hover {
   transition: 400ms;
