@@ -20,7 +20,7 @@ const Lantern = () => {
                 </p>    
                 <p>
                     Maybe this feeling will fade with time, though it's sickening that you can't speed up the process.
-                    Hopefully after anough teary eyed nights we will think of each other and smile.
+                    Hopefully after enough teary eyed nights we will think of each other and smile.
                     We will focus on the memories we made, the time we shared, and the love we gave.
                     You taught me that nothing in this life is a guarantee.
                 </p>
@@ -29,13 +29,17 @@ const Lantern = () => {
                     I would have kissed you longer.
                     I would have called you baby or darling or something cringier one more time.
                     I would have said one more "I love you" and "goodbye."
-                    I would have told you how proud I am of you, how beautiful of a soul you have, and how grateful I will forever be to have had you in my life.
+                    I would have told you how proud I was of you, how beautiful of a soul you had, and how grateful I was to have you.
                     But while those opportunities are gone, as are you, the least I can do is tell you how I feel.
+                    And the way I feel is that I am incomprehensibly proud of you.
+                    I continue to marvel at the beauty of your soul. 
+                    And I will forever be grateful to have had you in my life.
                 </p>
                 <img src={lantern} style={{width: "400px", height: "500px"}} alt="lantern"/>             
                 <p>___</p>
                 <p>
-                    As I let this water lantern meander downstream, I am reminded that our river never stops flowing.
+                    You will always be in my heart and on my mind.
+                    As I let this water lantern meander downstream, I am reminded that although the currents may diverge, the river never stops flowing.
                 </p>
                 <p>
                     Yash.
