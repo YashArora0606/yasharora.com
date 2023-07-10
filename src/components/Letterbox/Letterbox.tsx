@@ -4,6 +4,8 @@ import "./Letterbox.scss";
 import Sapphire from "./components/Letters/Sapphire/Sapphire";
 import Ruby from "./components/Letters/Ruby/Ruby";
 import Emerald from "./components/Letters/Emerald/emerald";
+import Lantern from "./components/Letters/Lantern/lantern";
+
 
 const Letters = () => {
 
@@ -12,7 +14,8 @@ const Letters = () => {
     const codeToComponent: { [key: string]: any } = {
         "sapphire": <Sapphire/>,
         "ruby": <Ruby/>,
-        "emerald" : <Emerald/>
+        "emerald" : <Emerald/>,
+        "lantern" : <Lantern/>
     }
 
     const getLetterOrLockScreen = () => {
