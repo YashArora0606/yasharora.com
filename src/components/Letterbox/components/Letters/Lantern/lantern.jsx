@@ -35,7 +35,7 @@ const Lantern = () => {
                 </img>                
                 <p>___</p>
                 <p>
-                    May our lives, be them separate bring us peace, love, and happiness.
+                    May our lives, be them separate, bring us peace, love, and happiness.
                 </p>
                 <p>
                     Yash.
