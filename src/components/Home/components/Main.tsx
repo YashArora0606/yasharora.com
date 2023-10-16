@@ -62,7 +62,7 @@ const Main = () => {
                     <div className="section-text">
                         <p>
                             <div className="links-section">
-                                <a className="link" href="https://vsco.co/yasheur/gallery" target="_blank" rel="noreferrer">VSCO</a>{`   `}
+                                <a className="link" href="https://vsco.co/yarora" target="_blank" rel="noreferrer">VSCO</a>{`   `}
                                 <a className="link" href="/linkedin" target="_blank" rel="noreferrer">LinkedIn</a>{`   `}
                                 <a className="link" href="/github" target="_blank" rel="noreferrer">GitHub</a>{`   `}
                                 <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{`   `}
