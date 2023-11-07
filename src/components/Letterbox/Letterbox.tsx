@@ -5,7 +5,7 @@ import Sapphire from "./components/Letters/Sapphire/Sapphire";
 import Ruby from "./components/Letters/Ruby/Ruby";
 import Emerald from "./components/Letters/Emerald/emerald";
 import Lantern from "./components/Letters/Lantern/lantern";
-
+import Jade from "./components/Letters/Jade/jade";
 
 const Letters = () => {
 
@@ -15,7 +15,8 @@ const Letters = () => {
         "sapphire": <Sapphire/>,
         "ruby": <Ruby/>,
         "emerald" : <Emerald/>,
-        "lantern" : <Lantern/>
+        "lantern" : <Lantern/>,
+        "jade" : <Jade/>
     }
 
     const getLetterOrLockScreen = () => {
