@@ -40,7 +40,7 @@ const Jade = () => {
                     Once more, a very happy birthday, my old friend.
                 </p>
                 <p>
-                    生日快乐
+                    生日快乐, 熊枫琳
                 </p>
                 <p>___</p>
                 <p>
