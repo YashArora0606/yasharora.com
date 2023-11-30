@@ -35,6 +35,12 @@ const Loopy = () => {
                 <p>
                     Hope you enjoy the break! Make sure to make up for all the time you couldn’t spend with family over covid.
                 </p>
+                <p>
+                    P.P.S.
+                </p>
+                <p>
+                    You got the summer card. To me you are summer because you are energetic and warm.
+                </p>
 
             </div>
         </div>
