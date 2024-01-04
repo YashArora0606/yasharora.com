@@ -36,11 +36,13 @@ const Main = () => {
                             {"Hi, I'm Yash."}
                         </p>
                         <p>
-                            {"I'm a software engineering student at the University of "}
-                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
-                            {". In the past I've worked on quantitative trading and software engineering problems at "}
+                            {"I'm an incoming quantitative trader at "}
                             <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
-                            {", "}
+                            {" and a software engineering student at "}
+                            <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
+                            {". I've also worked at "}
+                            {/* <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
+                            {", "} */}
                             <a className="styled-link citsec hoverable" href="https://citadelsecurities.com" target="_blank" rel="noreferrer">{"Citadel Securities"}</a>
                             {", "}
                             <a className="styled-link bloomberg hoverable" href="https://bloomberg.com" target="_blank" rel="noreferrer">{"Bloomberg"}</a>
@@ -48,11 +50,11 @@ const Main = () => {
                             <a className="styled-link shopify hoverable" href="https://shopify.com" target="_blank" rel="noreferrer">{"Shopify"}</a>
                             {"."}
                         </p>
-                        <p>
+                        {/* <p>
                             {"Talk to me about quantitative finance, Mario Kart, and "}
                             <a className="styled-link cats hoverable" href="/cats" target="_blank" rel="noreferrer">{"my cats"}</a>
                             {"."}
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 <div className="section">

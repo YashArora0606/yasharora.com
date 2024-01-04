@@ -10,11 +10,11 @@ body {
   --background: white;
   --text-primary: rgb(60, 60, 60);
   --text-secondary: rgb(120, 120, 120);
-  --accent: rgb(242, 230, 245);
+  --accent: rgb(214, 241, 236);
 }
 [data-theme="dark"] {
   --background: rgb(30, 30, 30);
   --text-primary: white;
   --text-secondary: rgb(200, 200, 200);
-  --accent: rgb(96, 79, 100);
+  --accent: rgb(42, 63, 58);
 }
