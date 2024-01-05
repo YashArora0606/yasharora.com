@@ -38,7 +38,7 @@ const Main = () => {
                         <p>
                             {"I'm an incoming quantitative trader at "}
                             <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
-                            {" and a software engineering student at "}
+                            {" and a software engineering student at the University of "}
                             <a className="styled-link waterloo hoverable" href="https://uwaterloo.ca" target="_blank" rel="noreferrer">{"Waterloo"}</a>
                             {". I've also worked at "}
                             {/* <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
@@ -59,6 +59,19 @@ const Main = () => {
                 </div>
                 <div className="section">
                     <div className="section-title">
+                        <p>Email</p>
+                    </div>
+                    <div className="section-text">
+                        <p>
+                            <div className="links-section">
+                                <p>{"yasharora0606[at]gmail.com"}</p>
+                                <p>{"yash.arora[at]uwaterloo.ca"}</p>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                {/* <div className="section">
+                    <div className="section-title">
                         <p>Links</p>
                     </div>
                     <div className="section-text">
@@ -70,10 +83,9 @@ const Main = () => {
                                 <a className="link" href="/resume" target="_blank" rel="noreferrer">Resume</a>{`   `}
                                 <a className="link" href="mailto:yasharora0606@gmail.com" target="_blank" rel="noreferrer">Email</a>
                             </div>
-
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
