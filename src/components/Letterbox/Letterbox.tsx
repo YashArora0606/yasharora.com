@@ -23,8 +23,8 @@ const Letters = () => {
   };
 
   const getLetterOrLockScreen = () => {
-    if (code in codeToComponent) {
-      return codeToComponent[code];
+    if (code.toLowerCase() in codeToComponent) {
+      return codeToComponent[code.toLowerCase()];
     }
     return (
       <Unlock
