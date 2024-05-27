@@ -7,32 +7,35 @@ import Emerald from "./components/Letters/Emerald/emerald";
 import Lantern from "./components/Letters/Lantern/lantern";
 import Jade from "./components/Letters/Jade/jade";
 import Loopy from "./components/Letters/Loopy/loopy";
+import Liwen from "./components/Letters/Liwen/liwen";
 
 const Letters = () => {
+  const [code, setCode] = useState("");
 
-    const [code, setCode] = useState('')
+  const codeToComponent: { [key: string]: any } = {
+    sapphire: <Sapphire />,
+    ruby: <Ruby />,
+    emerald: <Emerald />,
+    lantern: <Lantern />,
+    jade: <Jade />,
+    loopy: <Loopy />,
+    liwen: <Liwen />,
+  };
 
-    const codeToComponent: { [key: string]: any } = {
-        "sapphire": <Sapphire/>,
-        "ruby": <Ruby/>,
-        "emerald" : <Emerald/>,
-        "lantern" : <Lantern/>,
-        "jade" : <Jade/>,
-        "loopy": <Loopy/>
+  const getLetterOrLockScreen = () => {
+    if (code in codeToComponent) {
+      return codeToComponent[code];
     }
-
-    const getLetterOrLockScreen = () => {
-        if (code in codeToComponent) {
-            return codeToComponent[code]
-        }
-        return (<Unlock onAttemptUnlock={(message: string) => {setCode(message)}}/>)
-    }
-
     return (
-        <>
-            {getLetterOrLockScreen()}
-        </>
+      <Unlock
+        onAttemptUnlock={(message: string) => {
+          setCode(message);
+        }}
+      />
     );
+  };
+
+  return <>{getLetterOrLockScreen()}</>;
 };
 
 export default Letters;
