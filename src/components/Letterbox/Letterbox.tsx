@@ -7,7 +7,7 @@ import Emerald from "./components/Letters/Emerald/emerald";
 import Lantern from "./components/Letters/Lantern/lantern";
 import Jade from "./components/Letters/Jade/jade";
 import Loopy from "./components/Letters/Loopy/loopy";
-import Liwen from "./components/Letters/Liwen/liwen";
+import Beli from "./components/Letters/Beli/beli";
 
 const Letters = () => {
   const [code, setCode] = useState("");
@@ -19,7 +19,7 @@ const Letters = () => {
     lantern: <Lantern />,
     jade: <Jade />,
     loopy: <Loopy />,
-    liwen: <Liwen />,
+    beli: <Beli />,
   };
 
   const getLetterOrLockScreen = () => {

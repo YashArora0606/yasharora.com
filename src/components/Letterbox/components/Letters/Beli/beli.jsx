@@ -1,7 +1,7 @@
 import React from "react";
 import grandparents from "./grandparents.jpg"
 
-const Liwen = () => {
+const Beli = () => {
 
     return  (
         <div className="setting">
@@ -76,4 +76,4 @@ const Liwen = () => {
     )
 };
 
-export default Liwen;
+export default Beli;
