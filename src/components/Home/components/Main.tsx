@@ -36,7 +36,7 @@ const Main = () => {
           <div className="section-text">
             <p>{"Hi, I'm Yash."}</p>
             <p>
-              {"I'm a quantitative trader at "}
+              {"I'm a trader at "}
               <a
                 className="styled-link jane-street hoverable"
                 href="https://janestreet.com"
@@ -45,8 +45,8 @@ const Main = () => {
               >
                 {"Jane Street"}
               </a>
-              {". "}
-              {"Software engineering student at the University of "}
+              {/* {". "} */}
+              {/* {"Software engineering student at the University of "}
               <a
                 className="styled-link waterloo hoverable"
                 href="https://uwaterloo.ca"
@@ -54,8 +54,8 @@ const Main = () => {
                 rel="noreferrer"
               >
                 {"Waterloo"}
-              </a>
-              {". I've also worked at "}
+              </a> */}
+              {". I've previously worked at "}
               {/* <a className="styled-link jane-street hoverable" href="https://janestreet.com" target="_blank" rel="noreferrer">{"Jane Street"}</a>
                             {", "} */}
               <a
